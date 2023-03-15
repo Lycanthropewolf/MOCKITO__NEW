@@ -22,7 +22,7 @@ public class UserDaoImpl {
         return null;
     }
 
-    public List<String> findAllUsers() {
+    public List<String> getAllUsers() {
         return Collections.unmodifiableList(users);
     }
 }

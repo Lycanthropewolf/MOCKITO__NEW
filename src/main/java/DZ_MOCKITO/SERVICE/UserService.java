@@ -11,7 +11,7 @@ public class UserService {
     }
 
     public boolean checkUserExist(User user) {
-        if (user.getName().contains(userDao.findAllUsers().toString())) {
+        if (userDao.getUserByName(user.getName()).contains(user)) {
             return true;
         }
         return false;
