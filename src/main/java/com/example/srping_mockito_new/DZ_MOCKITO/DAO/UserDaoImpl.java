@@ -1,14 +1,15 @@
-package DZ_MOCKITO.DAO;
+package com.example.srping_mockito_new.DZ_MOCKITO.DAO;
 
-import DZ_MOCKITO.User;
+import com.example.srping_mockito_new.DZ_MOCKITO.User;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class UserDaoImpl {
     private final List<String> users = new ArrayList<>();
 
-    public UserDaoImpl(User user) {
+    public UserDaoImpl (User user) {
         users.add("Vasya");
         users.add("Dima");
         users.add("Petya");
@@ -21,7 +22,7 @@ public class UserDaoImpl {
         return null;
     }
 
-    public List<String> findAllUsers() {
-        return users;
+    public List<String> getAllUsers() {
+        return Collections.unmodifiableList(users);
     }
 }
