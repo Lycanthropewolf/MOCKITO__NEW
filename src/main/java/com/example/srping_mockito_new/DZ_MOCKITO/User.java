@@ -1,4 +1,4 @@
-package DZ_MOCKITO;
+package com.example.srping_mockito_new.DZ_MOCKITO;
 
 public class User {
     private  String name;

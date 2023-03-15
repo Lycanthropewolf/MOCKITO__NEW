@@ -1,6 +1,6 @@
-package DZ_MOCKITO.DAO;
+package com.example.srping_mockito_new.DZ_MOCKITO.DAO;
 
-import DZ_MOCKITO.User;
+import com.example.srping_mockito_new.DZ_MOCKITO.User;
 
 import java.util.ArrayList;
 import java.util.Collections;

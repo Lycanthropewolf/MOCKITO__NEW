@@ -1,16 +1,13 @@
 package DZ_MOCKITO.DAO;
 
-import DZ_MOCKITO.User;
+import com.example.srping_mockito_new.DZ_MOCKITO.DAO.UserDaoImpl;
+import com.example.srping_mockito_new.DZ_MOCKITO.User;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
-import java.util.stream.Stream;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class UserDaoImplTest {
     private UserDaoImpl userDao;

@@ -1,7 +1,7 @@
-package DZ_MOCKITO.SERVICE;
+package com.example.srping_mockito_new.DZ_MOCKITO.SERVICE;
 
-import DZ_MOCKITO.DAO.UserDaoImpl;
-import DZ_MOCKITO.User;
+import com.example.srping_mockito_new.DZ_MOCKITO.DAO.UserDaoImpl;
+import com.example.srping_mockito_new.DZ_MOCKITO.User;
 
 public class UserService {
     private final UserDaoImpl userDao;
