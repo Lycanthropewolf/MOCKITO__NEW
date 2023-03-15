@@ -8,7 +8,7 @@ import java.util.List;
 public class UserDaoImpl {
     private final List<String> users = new ArrayList<>();
 
-    public UserDaoImpl(User user) {
+    public UserDaoImpl (User user) {
         users.add("Vasya");
         users.add("Dima");
         users.add("Petya");
