@@ -3,6 +3,7 @@ package DZ_MOCKITO.DAO;
 import DZ_MOCKITO.User;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class UserDaoImpl {
@@ -22,6 +23,6 @@ public class UserDaoImpl {
     }
 
     public List<String> findAllUsers() {
-        return users;
+        return Collections.unmodifiableList(users);
     }
 }
